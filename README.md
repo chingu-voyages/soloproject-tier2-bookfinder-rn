@@ -1,5 +1,10 @@
 # soloproject-tier2-bookfinder-rn
 
+<div>
+  <img src="https://i.imgur.com/LLY2UTf.png" width=300 height=600 />
+  <img src="https://i.imgur.com/GLi68nT.png" width=300 height=600 />
+</div>
+
 ## Overview
 
 This project is designed as a way to gauge your React Native skills. You will be building a small mobile application
@@ -27,9 +32,37 @@ This tier focuses on frontend only so there will be no backend server involved. 
 
 **Specifications**
 
-1. Home Screen
+- Use React navigation to create 2 screens. A book list screen and a book detail screen (naming doesn't really matter here).
+- Do note: Application does not need to be pixel perfect but it should be as close to the screenshots as possible to test your knowledge of creating layouts in React Native.
 
-- 
+- Book List Screen
+  - [ ]  This component will be responsible for rendering the list of books that you get as response from the api.
+  - [ ]  The properties you will need are: thumbnail, title, authors, publisher, and description.
+  - [ ] Create a function to send a get request to the google books api. Refer to the [Google Books API](https://developers.google.com/books/) documentation.
+  - [ ] Create a function that will set the state of the input values (for the search component).
+  - [ ] Theses two functions will be passed down to search component. It is up to you to figure out how to approach the implementation details.
+  - [ ] Utilize FlatList for rendering the list of books. The FlatList will render the Book component. Refer to that section for requirements there.
+  - [ ] Hide the header. Refer to React Navigation docs on how to do this.
+  - Search Component
+    - [ ] Create a component for the search bar.
+    - [ ] Search bar component must take callback functions as props to handle changes in input text and submitting.
+    - [ ] If you use a UI component library, no need to create separate component, just use theirs.
+  - Book Component
+    - [ ]  Needs to accept image, title, author, publisher, description props (naming isn't important, what matters is the properties from the api. Use whatever naming as you see fit).
+    - [ ]  Refer to screenshot at top on how to do the layout.
+    - [ ]  Tapping on View Details button should send user to the book detail screen with the correct data. Refer to React Navigation docs on how to do this.
+    
+- Book Detail Screen
+  - [ ] Refer to screenshot on how to do the layout for this component.
+  - [ ] Title in header must be the title of the book. Refer to React Navigation docs on how to do this.
+  - [ ] You will notice some books have long descriptions. Implement scrolling to allow users to be able to see the entire contents of the screen.
+
+- Edge Cases
+  - 
+
+
+    
+    
 
 
 
