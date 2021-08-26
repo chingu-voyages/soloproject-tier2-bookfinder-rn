@@ -20,7 +20,7 @@ You can learn more and join us at chingu.io.
 
 ## Instructions
 
-General instructions for all Pre-Work Projects can also be found in the Chingu Voyage Handbook (URL posted in the #read-me-first channel on Discord).
+General instructions for all Pre-Work Projects can also be found in the Chingu Voyage Handbook (URL posted in the `#read-me-first` channel on Discord).
 
 This tier focuses on frontend only so there will be no backend server involved. There will potentially be tier 1 and tier 3 versions in the future though!
 
